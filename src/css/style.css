@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 190px;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+/*    */
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+}
+
+#homepage-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height:140vh;
+}
+
+.phones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.phones img{
+    height: 40rem;
+}
+
+.login{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 700px;
+    min-height: 45rem;
+    padding: 10px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 1px;
+
+}
+
+
+.group:nth-child(1){
+    height: 350px;
+    padding-top: 40px;
+}
+.group:nth-child(2) p{
+    padding: 10px;
+}
+
+
+
+.logo-instagram{
+    height: 3rem;
+}
+
+.log input{
+    align-items: center;
+    position: relative;
+}
+
+.form-login1{
+    border: 1px solid lightgray;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #fafafa;
+    background-color: #fafafa;
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+}
+
+.or{
+    color: lightgray;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 250px;
+
+}
+  
+  .or:after, .or:before {
+    content: '';
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 1px;
+    background: lightgray;
+    margin: 0 auto;
+  }
+
+.push-login{
+    background: #B2DFFC;
+    color: white;
+    width: 250px;
+    height: 25px;  
+    text-align: center;
+    border-radius: 3px;
+}
+
+.facebook{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fb-icon{
+    width: 16px;
+    height: 16px;
+}
+
+.fb{
+    font-weight: 500;
+    color: #4d5e99;
+    background: none;
+}
+
+.forgot-password a{
+    font-size: 12px;
+    color: #4d5e99;
+}
+
+.text-blue a{
+    font-weight: 700;
+    color: #39B8FA;
+
+}
+
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download img{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('./imagens/apple-button.png');
+}
+
+.app-download:nth-child(2) {
+    background-image: url('./imagens/googleplay-button.png');
+}
+.footer{
+    text-align: center;
+    color: lightgray;
+    height: 100px;
+}
+
+.footer ul li, .footer ul li a{
+    display: inline;
+    margin: 5px;
+    color: lightgray;
+}
