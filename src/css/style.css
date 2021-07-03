@@ -79,11 +79,11 @@ body{
     position: relative;
 }
 
-.form-login1{
+.form-login{
     border: 1px solid lightgray;
     font-size: 12px;
     border-radius: 3px;
-    color: #fafafa;
+    color: black    ;
     background-color: #fafafa;
     width: 250px;
     height: 30px;
